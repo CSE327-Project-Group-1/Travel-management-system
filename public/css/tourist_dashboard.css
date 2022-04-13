@@ -1,0 +1,62 @@
+.search-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.topnav input[type=text] {
+	padding: 6px;
+	font-size: 17px;
+	/*border: none;*/
+
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	max-width: 250px;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+	padding: 2px 16px;
+}
+
+.feature-package {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.card {
+	flex: 1 1 30%;
+	min-width: 10%;
+	max-height: 250px;
+	margin: 30px 40px;
+	display: block;
+}
+.card .container h5, h6 {
+	text-align: center;
+	color: grey;
+}
+.card .container h5 {
+	color: black;
+}
+.card .card-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 150px;
+}
+.card .card-image img {
+	max-height: 100px;
+}
+.card .card-image img:hover {
+	max-height: 90px;
+	transition: 0.3s;
+}
+
+.card .container {
+	max-height: 100px;
+}
