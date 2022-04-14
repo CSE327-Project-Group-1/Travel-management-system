@@ -28,3 +28,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Auth::routes();
 
 Route::get('/booking', [App\Http\Controllers\BookingController::class, 'index'])->name('booking');
+
+Auth::routes();
+
+Route::get('/city', ['middleware'=>'auth', 'uses'=>'App\Http\Controllers\CityController@city'])->name('city');
