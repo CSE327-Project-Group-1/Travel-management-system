@@ -20,7 +20,17 @@
     <body class="antialiased">
        <div class="menu-bar">
         <ul>
+<<<<<<< HEAD
         <li><a href="info.php"><i class="far fa-question-circle"></i>Info</a>
+=======
+           <li><a><i class="fas fa-book"></i>Home</a>
+           <div class="sub-menu-1">
+                <ul>
+                    <li><a href="offer.php"><i class="fas fa-money-check-alt"></i>Offers</a></li>
+                    <li><a href="info.php"><i class="far fa-question-circle"></i>Info</a>
+                </ul>
+            </div>
+>>>>>>> b7270e9534b9352448e9def5648a29ea898a5fd2
            </li>
 
            <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
@@ -29,6 +39,7 @@
 
 
 
+<<<<<<< HEAD
         <li><a href="/places"><i class="fas fa-location-arrow"></i>Places</a></li>
             <li><a><i class="fas fa-book"></i>Know us</a>
             <div class="sub-menu-1">
@@ -41,6 +52,8 @@
             </div>
             </li>
 
+=======
+>>>>>>> b7270e9534b9352448e9def5648a29ea898a5fd2
 
             
             <li>
@@ -59,6 +72,21 @@
                 </div>
             @endif
             
+<<<<<<< HEAD
+=======
+
+            <li><a href="place.php"><i class="fas fa-location-arrow"></i>Places</a></li>
+            <li><a><i class="fas fa-book"></i>Know us</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li><a href="contact.php"><i class="fas fa-phone"></i>Contact</a></li>
+                    <li><a href="mobile.php"><i class="fas fa-mobile"></i>Mobile app</a></li>
+                    <li><a href="about_us.php"><i class="fas fa-bullseye"></i>About Us</a></li>
+
+                </ul>
+            </div>
+            </li>
+>>>>>>> b7270e9534b9352448e9def5648a29ea898a5fd2
 
 
         </ul>

@@ -25,6 +25,7 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+<<<<<<< HEAD
 
 Route::get('/cities', ['middleware'=>'auth', 'uses'=>'App\Http\Controllers\CityController@cities'])->name('cities');
 
@@ -37,3 +38,9 @@ Route::get('/mobile', ['middleware'=>'auth', 'uses'=>'App\Http\Controllers\HomeC
 Route::get('/aboutus', ['middleware'=>'auth', 'uses'=>'App\Http\Controllers\HomeController@aboutus'])->name('aboutus');
 
 Route::get('/places', ['middleware'=>'auth', 'uses'=>'App\Http\Controllers\HomeController@places'])->name('places');
+=======
+
+Route::get('/cities', ['middleware'=>'auth', 'uses'=>'App\Http\Controllers\CityController@cities'])->name('cities');
+
+Route::get('/profile', ['middleware'=>'auth', 'uses'=>'App\Http\Controllers\ProfileController@profile'])->name('profile');
+>>>>>>> b7270e9534b9352448e9def5648a29ea898a5fd2
