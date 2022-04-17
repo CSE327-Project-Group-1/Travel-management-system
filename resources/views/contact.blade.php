@@ -112,9 +112,9 @@ h2 {
     <div class="card">
       <img src="images/o1.jpg" alt="s" style="width:100%">
       <div class="container">
-        <h2>Likhon Saha</h2>
+        <h2>Jannatul Ferdous Eusha</h2>
         <p class="title">OWNER</p>
-        <p>likhon.saha@northsouth.edu</p>
+        <p>jannatul.ferdous@northsouth.edu</p>
       </div>
     </div>
   </div>
