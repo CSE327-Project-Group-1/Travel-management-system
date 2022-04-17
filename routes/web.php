@@ -25,10 +25,7 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
 
-Route::get('/booking', [App\Http\Controllers\BookingController::class, 'index'])->name('booking');
+Route::get('/cities', ['middleware'=>'auth', 'uses'=>'App\Http\Controllers\CityController@cities'])->name('cities');
 
-Auth::routes();
-
-Route::get('/city', ['middleware'=>'auth', 'uses'=>'App\Http\Controllers\CityController@city'])->name('city');
+Route::get('/profile', ['middleware'=>'auth', 'uses'=>'App\Http\Controllers\ProfileController@profile'])->name('profile');

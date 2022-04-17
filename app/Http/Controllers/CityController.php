@@ -7,8 +7,9 @@ use App\Models\city;
 
 class CityController extends Controller
 {
-    function city()
+    public function cities()
     {
-       return City::all();
+       $cities = City::all();
+       return view('cities', ['cities'=> $cities]);
     }
 }
