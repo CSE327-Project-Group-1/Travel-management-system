@@ -27,8 +27,23 @@ class HomeController extends Controller
         return view('home');
     }
 
-    function city()
+    public function contact()
     {
-       return City::all();
+       return view('contact');
+    }
+
+    public function mobile()
+    {
+       return view('mobile');
+    }
+
+    public function aboutus()
+    {
+       return view('aboutus');
+    }
+
+    public function places()
+    {
+       return view('places');
     }
 }
