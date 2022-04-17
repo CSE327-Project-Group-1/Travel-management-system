@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.navbar')
 
 @section('content')
 <!DOCTYPE html>
@@ -10,7 +10,7 @@
   <title>Tourist Dashboard</title>
 </head>
 <body>
-    @include('slider')
+
 </body>
 </html>
 @stop
