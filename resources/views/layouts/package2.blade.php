@@ -14,6 +14,7 @@
       <li class="active">
       <div class="sub-menu-1">
            <ul>
+             /* redirect to the restaurant page to the selected city id */
                <li><a href="restaurant.php?id='.$row['city_id'].'"><span>Restaurants</a></li>
            </ul>
        </div>
