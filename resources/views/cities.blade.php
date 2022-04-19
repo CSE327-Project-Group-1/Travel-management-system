@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.navbar')
 
 @section('title')
 Cities
@@ -11,8 +11,9 @@ Cities
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- add css -->
 	<link rel="stylesheet" href="{{ asset('css/cities.css')}}">
-	<title>Document</title>
+	<title>CSE327Project</title>
 </head>
 <body>
 
@@ -21,10 +22,12 @@ Cities
 <div class="card">
 <div class="container">
 		<div class="card-image">
+			<!--here a user can view the  list of cities which we get from our database -->
+			<!--display image of cities  from databse -->
 			@foreach ($cities as $c)
 				<img src="{{ asset('images/'.$c -> city_image)}}" height="120" width="240">
 		</div>
-		
+		 <!--display name of cities  from database -->
 		<h5><b>{{$c -> city_name}}</b></h5>
 		</div></a>
 		</div>

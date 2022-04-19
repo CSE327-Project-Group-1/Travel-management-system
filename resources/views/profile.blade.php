@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+<!--add title name -->
 @section('title')
     Cities
 @stop
@@ -14,8 +14,10 @@
  </head>
  <body>
  <div class="card" style="width: 18rem;">
+  <!--fetch the data from login details and show the name ,email in profile page-->
  @foreach ($profile as $n)
   <div class="card-body">
+
     <h5 class="card-title">{{$n -> name}}</h5>
     <h6 class="card-title">{{$n -> email}}</h6>
     <h6 class="card-title">{{$n -> created_at}}</h6>

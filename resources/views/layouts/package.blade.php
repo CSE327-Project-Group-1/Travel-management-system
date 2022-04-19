@@ -15,7 +15,7 @@
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
-      <label class="logo">Cse299Project</label>
+      <label class="logo">Cse327roject</label>
       <ul>
 
         <li><p><?php
@@ -30,9 +30,16 @@
 require 'connections.php';
 
 
+/* fetch package data from database to show the package details in a website.
+request: mysqli_fetch_assoc 
+return : the list of package details 
+
+*/
+
 $result=mysqli_query($conn,$sql1);
       if (mysqli_num_rows($result)>0) {
             while ($row = mysqli_fetch_assoc($result)) {
+       /* print the list of package details (package_name,city,places to visit,cost,duration,hotel,guide name)*/
 echo "<h1><b>$row[package_name]</b></h1>";
           echo '
               <table>

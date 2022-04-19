@@ -39,7 +39,7 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
 
-                        <!-- Authentication Links -->
+                        <!-- authentication links of login, register page of our website  -->
                         @guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
@@ -64,7 +64,7 @@
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
-
+                      <!-- authentication links of logout page of our website . after logging out the page will redirect to our home page -->
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                         @csrf
                                     </form>
@@ -73,6 +73,7 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item active">
+                                    <!--show the link of cities and profile links in the nav side bar after log in  -->
                                     <a class="nav-link" href="#">See Cities <span class="sr-only">(Packages)</span></a>
                                 </li>
                                 <li class="nav-item">

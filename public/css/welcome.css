@@ -5,7 +5,7 @@
 }
 body
 {
-    background-image: url(images/mainpage.jpg);
+    background-image: url('../images/mainpage.jpg');
     background-size : cover;
     background-position: center;
     box-sizing: border-box;
@@ -126,7 +126,7 @@ button
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-    background-image: url("images/Rangamati.jpg");
+    background-image: url('../images/Rangamati.jpg');
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
@@ -134,20 +134,21 @@ button
 }
 .card1
 {
-    background-image: url(images/rangamati_home.jpg)
+    background-image: url('../images/rangamati_home.jpg')
 }
 .card2
 {
-    background-image: url(images/Kuakata.jpg)
+    background-image: url('../images/Kuakata.jpg')
 }
 .card3
 {
-    background-image: url(images/Sundarbans.jpg)
+    background-image: url('../images/cox.jpg');
 }
 .card4
 {
-    background-image: url(images/Cox.jpg)
+    background-image: url('../images/Sundarbans.jpg')
 }
+
 .card:hover
 {
     transform: translateY(-10px);
