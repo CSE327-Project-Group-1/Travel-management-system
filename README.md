@@ -2,6 +2,8 @@
 Travel-management-system
 --------------------------------------------------------------------------------------------
 This website deals with the problems that a person faces when planning to go out on a tour. For example – hotel reservation, Hotel facilities and Guide Selection etc. For our project, we propose the development of a web-based tourist guide website, which provides the user with fast and reliable communication between the agency and customers.
+![image](https://user-images.githubusercontent.com/63233862/164058887-dcd95c57-7c46-41cc-9a20-2b2439a0bb30.png)
+
 
 Tools
 -------------------------
